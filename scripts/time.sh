@@ -10,6 +10,3 @@ UTC=true
 EOF
 
 sudo ln -sf /usr/share/zoneinfo/"$TIMEZONE" /etc/localtime
-
-# Enable NTP
-sudo chkconfig ntpd on
